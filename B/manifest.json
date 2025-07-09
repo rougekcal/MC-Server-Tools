@@ -1,0 +1,77 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"product_type": "addon",
+		"authors": [
+			"Rougekcal（NEO天才小白）"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.48"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "MinecraftServerTools",
+		"description": "我的世界服务器辅助系统插件行为包，使用钟表打开菜单MadeBy：NEO天才小白 QQ：2088489322",
+		"min_engine_version": [
+			1,
+			21,
+			90
+		],
+		"uuid": "264cd34b-daf3-4276-b0a3-f655de50a41d",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "217460ca-0840-40b4-9f6f-9550cf071666",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "8a2b7bf2-b618-4bc0-ba24-2929cbdec4cf",
+			"entry": "scripts/index.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "24e2322a-a8f7-4dbe-ab59-7d2ee1541db6",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.0.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0"
+		},
+		{
+			"module_name": "@minecraft/server-admin",
+			"version": "1.0.0-beta"
+		  }
+	]
+
+}
